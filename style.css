@@ -9,6 +9,29 @@ body {
     background-size: cover;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlUeKgg6xT7k_GSHV7bJ6O-Kt1TEvC9Ps41KtDMDr0Q&s=10);
 }
-.container{
-    
-}
+.textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid;
+    border-color: black;
+    height: 200px;
+    width: 750px;
+    color: black;
+    background-color: whitesmoke;
+
+  }
+  .container{
+      flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  img{
+      height: 300px;
+      width: auto;
+      justify-content: space-evenly;
+  }
